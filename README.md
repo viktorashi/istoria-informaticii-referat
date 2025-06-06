@@ -13,9 +13,10 @@ fct cu
 unde
 
 ```bash
-pdflatex -f -synctex=1 -interaction=nonstopmode -file-line-error -outdir=build main.tex
+pdflatex -synctex 1 -interaction=nonstopmode -file-line-error -output-directory=build main.tex
 ```
 
+sau in loc de `main` ce nume are ala singuru fisier de `.tex`
 si
 
 ```bash
