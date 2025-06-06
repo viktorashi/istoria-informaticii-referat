@@ -17,7 +17,8 @@ pdflatex -synctex 1 -interaction=nonstopmode -file-line-error -output-directory=
 ```
 
 sau in loc de `main` ce nume are ala singuru fisier de `.tex`
-si
+<br>
+si:
 
 ```bash
 bibtex main.tex
