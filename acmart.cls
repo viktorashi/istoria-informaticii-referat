@@ -1716,8 +1716,6 @@
     is obsolete.  ACM no longer prints the price in bibstrip.}}
 \def\acmSubmissionID#1{\def\@acmSubmissionID{#1}}
 \acmSubmissionID{}
-\def\acmISBN#1{\def\@acmISBN{#1}}
-\acmISBN{978-x-xxxx-xxxx-x/YYYY/MM}
 \def\acmDOI#1{\def\@acmDOI{#1}}
 \acmDOI{10.1145/nnnnnnn.nnnnnnn}
 \newlength\@ACM@badge@width
@@ -2230,9 +2228,6 @@
             \if@ACM@journal@bibstrip
               ACM~\@permissionCodeTwo/\@acmYear/\@acmMonth-ART\@acmArticle\\
               % \@formatdoi{\@acmDOI}%
-            \else % Conference
-              \ifx\@acmISBN\@empty\else ACM~ISBN~\@acmISBN\\\fi
-              \ifx\@acmDOI\@empty\fi%
             \fi
           \fi
         \fi
