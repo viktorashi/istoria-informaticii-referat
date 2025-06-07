@@ -2008,7 +2008,7 @@
   \or % cc
   Copyright held by the owner/author(s).
   \fi}
-\def\@formatdoi#1{\url{https://doi.org/#1}}
+% \def\@formatdoi#1{\url{https://doi.org/#1}}
 \def\@copyrightpermission{%
   \ifcase\acm@copyrightmode\relax % none
   \or % acmcopyright
@@ -2267,17 +2267,17 @@
           \fi
           \ifx\@acmDOI\@empty
           .
-          \else
-            , \@formatdoi{\@acmDOI}.
+          % \else
+          %   , \@formatdoi{\@acmDOI}.
           \fi\\
         \else
           \if@ACM@nonacm\else
             \if@ACM@journal@bibstrip
               ACM~\@permissionCodeTwo/\@acmYear/\@acmMonth-ART\@acmArticle\\
-              \@formatdoi{\@acmDOI}%
+              % \@formatdoi{\@acmDOI}%
             \else % Conference
               \ifx\@acmISBN\@empty\else ACM~ISBN~\@acmISBN\\\fi
-              \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi%
+              \ifx\@acmDOI\@empty\fi%
             \fi
           \fi
         \fi
@@ -2915,7 +2915,7 @@
   %        \@article@string\unskip, \ref{TotPages}~\@pages@word.
   %   \fi
   % \fi
-  \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi
+  \ifx\@acmDOI\@empty\fi
 \par\egroup}
 \def\@printendtopmatter{%
   \let\@vspace\@vspace@orig
@@ -3082,9 +3082,9 @@
       \else%
         \if@ACM@engage
           \fancyhead[LE]{\ACM@linecountL\@headfootfont\footnotesize
-            EngageCSEdu. \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi}%
+            EngageCSEdu. \ifx\@acmDOI\@empty\fi}%
           \fancyhead[RO]{\@headfootfont
-            EngageCSEdu. \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi
+            EngageCSEdu. \ifx\@acmDOI\@empty\fi
             \ACM@linecountR}%
         % \else
         %   \fancyhead[LE]{\ACM@linecountL\@headfootfont\footnotesize
@@ -3106,9 +3106,9 @@
     \else%
       \if@ACM@engage
         \fancyhead[LE]{\ACM@linecountL\@headfootfont
-          EngageCSEdu. \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi}%
+          EngageCSEdu. \ifx\@acmDOI\@empty\fi}%
         \fancyhead[RO]{\@headfootfont
-          EngageCSEdu. \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi
+          EngageCSEdu. \ifx\@acmDOI\@empty\fi
           \ACM@linecountR}%
       % \else
       %   \fancyhead[LE]{\ACM@linecountL\@headfootfont
@@ -3139,7 +3139,7 @@
   \fancyfoot[R]{\footnotesize
     \@journalName, Volume~\@acmVolume, Issue~\@acmNumber,
     \ifx\@acmArticle\@empty\else Article~\@acmArticle\fi\space
-    (\@acmPubDate)\ifx\@acmDOI\@empty\else\\\@formatdoi{\@acmDOI}\fi}
+    (\@acmPubDate)\ifx\@acmDOI\@empty\fi}
   \fi
 }%
 \pagestyle{standardpagestyle}
@@ -3224,7 +3224,7 @@
   \fancyfoot[R]{\footnotesize
     \@journalName, Volume~\@acmVolume, Issue~\@acmNumber,
     \ifx\@acmArticle\@empty\else Article~\@acmArticle\fi\space
-    (\@acmPubDate)\ifx\@acmDOI\@empty\else\\\@formatdoi{\@acmDOI}\fi}
+    (\@acmPubDate)\ifx\@acmDOI\@empty\fi}
   \fi
 }}
 \def\ACM@NRadjust#1{%
