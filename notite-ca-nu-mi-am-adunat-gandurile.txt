@@ -1,0 +1,37 @@
+poti sa zici de asta ca incearca sa ajute lumea sa-si instaleze chestii fara sa fie prajotori
+
+si tot gnomeu e un environment care incearca sa faca computeu frumos visual ca pe alte sisteme
+https://endof10.org/places/
+
+bucatici de istorie
+https://www.gnu.org/gnu/about-gnu.html#f1
+
+ce au incercat sa faca inainte de linux
+https://www.gnu.org/software/hurd/hurd-and-linux.html
+
+aici niste pleasee inlude mee
+https://www.gnu.org/gnu/linux-and-gnu.html
+
+
+zice si aici mai overview
+https://www.fsf.org/news/forty-years-of-gnu-and-the-free-software-movement
+
+ok dar ce e FSF din punct de vedere legal si cand / cum s-a fondat? 
+ca zicea undeva ca daca folosesti licenta lor de copy-left, atunci poti sa le dai lor si aia de copy-RIGHT cumva sa te reprezeinte in court daca esti developer de free software pe GPL si iti incalca cineva licenta
+
+a, si inainte sa aiba un kernel, cum naiba functiona sistemul de operare? gen cum pornea? sau pornea? like im noob ion understand 
+
+inafara de linux mai si BSD free, dar a evoluat total separat
+
+ma gandesc ca wiki are cel mai comprehansive istorie vazuta din toate punctele ig
+https://en.wikipedia.org/wiki/Free_Software_Foundatio
+
+aici s-a oficilaizat gen totu
+https://web.archive.org/web/20030524174013/http://weblog.siliconvalley.com/column/dangillmor/archives/001029.shtml
+
+ma gandesc pt ca toata lumea cauta ce e ala copyleft din cauza lui gnu, au pus parte care explica super misto si perfect ce e pe fkin wiki
+https://en.wikipedia.org/wiki/Copyleft
+
+
+whattt, deci interpeteru de Lisp pe care i l-a dat rms lu firma aia, e defapt PRIMUL DOMAIN NAME INREGISTRAT PE INTERNET https://symbolics.com that's crazyy
+si dupa n-a mai vrut sa-i dea inapoi, and he got bitter, das insane.
