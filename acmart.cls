@@ -1538,25 +1538,25 @@
 \def\@journalNameShort{\@journalName}%
 \def\@permissionCodeOne{XXXX-XXXX}%
 \def\@permissionCodeTwo{\@permissionCodeOne}%
-\newcommand\acmConference[4][]{%
-  \gdef\acmConference@shortname{#1}%
-  \gdef\acmConference@name{#2}%
-  \gdef\acmConference@date{#3}%
-  \gdef\acmConference@venue{#4}%
-  \ifx\acmConference@shortname\@empty
-    \gdef\acmConference@shortname{#2}%
-  \fi
-  \global\@ACM@journal@bibstripfalse
-  \ifx\@acmBooktitle\@empty\relax
-    \acmBooktitle{Proceedings of \acmConference@name
-      \ifx\acmConference@name\acmConference@shortname\else
-      \ (\acmConference@shortname)\fi}%
-  \fi
-}
-\if@ACM@journal\else
-\acmConference[Conference'17]{ACM Conference}{July 2017}{Washington,
-  DC, USA}%
-\fi
+% \newcommand\acmConference[4][]{%
+%   \gdef\acmConference@shortname{#1}%
+%   \gdef\acmConference@name{#2}%
+%   \gdef\acmConference@date{#3}%
+%   \gdef\acmConference@venue{#4}%
+%   \ifx\acmConference@shortname\@empty
+%     \gdef\acmConference@shortname{#2}%
+%   \fi
+%   \global\@ACM@journal@bibstripfalse
+%   \ifx\@acmBooktitle\@empty\relax
+%     \acmBooktitle{Proceedings of \acmConference@name
+%       \ifx\acmConference@name\acmConference@shortname\else
+%       \ (\acmConference@shortname)\fi}%
+%   \fi
+% }
+% \if@ACM@journal\else
+% \acmConference[Conference'17]{ACM Conference}{July 2017}{Washington,
+%   DC, USA}%
+% \fi
 \def\acmBooktitle#1{\gdef\@acmBooktitle{#1}}
 \acmBooktitle{}
 \def\@editorsAbbrev{(Ed.)}
@@ -2237,15 +2237,15 @@
     \if@ACM@authorversion\else
       \if@printpermission\@copyrightpermission\par\fi
     \fi
-    \if@ACM@manuscript\else
-       \if@ACM@journal@bibstrip\else % Print the conference information
-         \if@ACM@engage
-            {\itshape \@acmBooktitle, \@acmYear.}\par
-         \else
-         {\itshape \acmConference@shortname, \acmConference@venue}\par
-         \fi
-       \fi
-    \fi
+    % \if@ACM@manuscript\else
+    %    \if@ACM@journal@bibstrip\else % Print the conference information
+    %      \if@ACM@engage
+    %         {\itshape \@acmBooktitle, \@acmYear.}\par
+    %      \else
+    %      {\itshape \acmConference@shortname, \acmConference@venue}\par
+    %      \fi
+    %    \fi
+    % \fi
     \if@printcopyright
       \copyright\ \@copyrightyear\ \@copyrightowner\\
     \else
@@ -3067,9 +3067,9 @@
           \fancyfoot[RO,LE]{\footnotesize \@journalNameShort,
             Vol. \@acmVolume, No.~\@acmNumber, Article \@acmArticle.
             Publication date: \@acmPubDate.}%
-        \else
-          \fancyfoot[RO,LE]{\footnotesize \acmConference@shortname,
-            \acmConference@date, \acmConference@venue.}%
+        % \else
+        %   \fancyfoot[RO,LE]{\footnotesize \acmConference@shortname,
+        %     \acmConference@date, \acmConference@venue.}%
          \fi
       \fi
     \else % Proceedings
@@ -3086,13 +3086,13 @@
           \fancyhead[RO]{\@headfootfont
             EngageCSEdu. \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi
             \ACM@linecountR}%
-        \else
-          \fancyhead[LE]{\ACM@linecountL\@headfootfont\footnotesize
-            \acmConference@shortname,
-            \acmConference@date, \acmConference@venue}%
-          \fancyhead[RO]{\@headfootfont
-            \acmConference@shortname,
-            \acmConference@date, \acmConference@venue\ACM@linecountR}%
+        % \else
+        %   \fancyhead[LE]{\ACM@linecountL\@headfootfont\footnotesize
+        %     \acmConference@shortname,
+        %     \acmConference@date, \acmConference@venue}%
+        %   \fancyhead[RO]{\@headfootfont
+        %     \acmConference@shortname,
+        %     \acmConference@date, \acmConference@venue\ACM@linecountR}%
          \fi
       \fi
     \fi
@@ -3110,13 +3110,13 @@
         \fancyhead[RO]{\@headfootfont
           EngageCSEdu. \ifx\@acmDOI\@empty\else\@formatdoi{\@acmDOI}\fi
           \ACM@linecountR}%
-      \else
-        \fancyhead[LE]{\ACM@linecountL\@headfootfont
-          \acmConference@shortname,
-          \acmConference@date, \acmConference@venue}%
-        \fancyhead[RO]{\@headfootfont
-          \acmConference@shortname,
-          \acmConference@date, \acmConference@venue\ACM@linecountR}%
+      % \else
+      %   \fancyhead[LE]{\ACM@linecountL\@headfootfont
+      %     \acmConference@shortname,
+      %     \acmConference@date, \acmConference@venue}%
+      %   \fancyhead[RO]{\@headfootfont
+      %     \acmConference@shortname,
+      %     \acmConference@date, \acmConference@venue\ACM@linecountR}%
        \fi
     \fi
   \fi
@@ -3184,9 +3184,9 @@
           \fancyfoot[RO,LE]{\footnotesize \@journalNameShort,
             Vol. \@acmVolume, No.~\@acmNumber, Article \@acmArticle.
             Publication date: \@acmPubDate.}%
-        \else
-          \fancyfoot[RO,LE]{\footnotesize \acmConference@shortname,
-            \acmConference@date, \acmConference@venue.}%
+        % \else
+        %   \fancyfoot[RO,LE]{\footnotesize \acmConference@shortname,
+        %     \acmConference@date, \acmConference@venue.}%
          \fi
       \fi%
       \fancyhead[L]{\ACM@linecountL\@acmBadgeL}%
