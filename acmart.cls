@@ -1970,44 +1970,6 @@
   \def\ACM@cc@version{#1}%
   \def\ACM@cc@type{#2}}
 \setcctype{by}
-\def\@copyrightowner{%
-  \ifcase\acm@copyrightmode\relax % none
-  \or % acmcopyright
-  ACM\@.
-  \or % acmlicensed
-  Copyright held by the owner/author(s). Publication rights licensed to
-  ACM\@.
-  \or % rightsretained
-  Copyright held by the owner/author(s).
-  \or % usgov
-  \or % usgovmixed
-  Copyright held by the owner/author(s).
-  \or % cagov
-  Copyright Crown in Right of Canada.
-  \or %cagovmixed
-  Copyright held by the owner/author(s).
-  \or %licensedusgovmixed
-  Copyright held by the owner/author(s). Publication rights licensed to
-  ACM\@.
-  \or % licensedcagov
-  Copyright held by the owner/author(s).
-  \or %licensedcagovmixed
-  Copyright held by the owner/author(s). Publication rights licensed to
-  ACM\@.
-  \or % othergov
-  Copyright held by the owner/author(s).
-  \or % licensedothergov
-  Copyright held by the owner/author(s). Publication rights licensed to
-  ACM\@.
-  \or % ic2w3www
-  IW3C2 (International World Wide Web Conference Committee), published
-  under Creative Commons CC-BY~4.0 License.
-  \or % ic2w3wwwgoogle
-  IW3C2 (International World Wide Web Conference Committee), published
-  under Creative Commons CC-BY-NC-ND~4.0 License.
-  \or % cc
-  Copyright held by the owner/author(s).
-  \fi}
 % \def\@formatdoi#1{\url{https://doi.org/#1}}
 \def\@copyrightpermission{%
   \ifcase\acm@copyrightmode\relax % none
@@ -2246,13 +2208,6 @@
     %      \fi
     %    \fi
     % \fi
-    \if@printcopyright
-      \copyright\ \@copyrightyear\ \@copyrightowner\\
-    \else
-      \ifx\@copyrightyear\@empty\else
-        \@copyrightyear.\
-      \fi
-    \fi
     \if@ACM@manuscript
       Manuscript submitted to ACM\\
     \else
