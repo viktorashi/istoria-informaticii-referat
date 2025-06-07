@@ -1,4 +1,12 @@
-fct cu
+tu pt ca esti sjemekr poti sa-i dai doar
+
+```
+make
+```
+
+daca ai pus pdflatex si tot TeXLive si nebuniile
+
+fct cu:
 
 ```json
 "name": "pdflatex -> bibtex -> pdflatex * 2",
@@ -21,7 +29,7 @@ sau in loc de `main` ce nume are ala singuru fisier de `.tex`
 si:
 
 ```bash
-bibtex main.tex
+bibtex build/main.aux
 ```
 
 n-am inteles inca cum functioneaza treceea de mai multe ori prin acelasi recipe dar oh well

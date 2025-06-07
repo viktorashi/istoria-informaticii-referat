@@ -11,5 +11,5 @@ buildtex:
 	pdflatex -synctex 1 -interaction=nonstopmode -file-line-error -output-directory=build main.tex
 
 buildbib:
-	bibtex main.tex
+	bibtex build/main.aux
 
