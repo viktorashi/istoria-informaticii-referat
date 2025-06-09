@@ -21,8 +21,7 @@ Bib\TeX}}}
 	\includegraphics[width=200px]{pics/jesus-stallman.jpg}
 	\centering
 	\caption{RMS in his divine prime}
-	\Description{Enjoying the baseball game from the third-base
-	seats. Ichiro Suzuki preparing to bat.}
+	\Description{Stallman, in costume as St. IGNUcius, wearing a halo consisting of the platter of an old hard disk drive (Monastir, Tunisia, 2012); description provided by Wikipedia}
 	\label{fig:teaser}
 \end{teaserfigure}
 
@@ -48,7 +47,9 @@ Now since Stallman accepted to give them the interpreter via a \textbf{public do
 His grudge was so intense after that incident that he decided to start the
 
 \section{Free software movement}
-In '83 rms launched an OS that would be like Unix, in the sense of its impact and user experience, but not in the sense of how locked-down it was to modifications and its proprietary nature, Unix being owned by AT\&T primarily. He came up with the genious (\verb|\s|) recursive acrnonym of \textbf{G}NU's not Unix. Cuz it wasn't\ldots. "GNU" was too damn good they even named an asteriod after it. \cite{gnu-asteriod} He basically set out to "free" Unix.
+In '83 rms launched an OS that would be like Unix, in the sense of its impact and user experience, but not in the sense of how locked-down it was to modifications and its proprietary nature, Unix being owned by AT\&T primarily. He came up with the genious (\verb|\s|) recursive acrnonym of \textbf{G}NU's not Unix. Cuz it wasn't\ldots Unix. "GNU" was so damn good they even named an asteriod after it. \cite{gnu-asteriod}
+
+He basically set out to "free" Unix.
 
 The philosophy behind "free" is the main point of contention for a lot of people learning about the free software movement.
 
@@ -71,12 +72,57 @@ Meaning there are 4 \textbf{essential} freedoms the users of such programs benef
 
 \begin{quotation}
 	\begin{itemize}
-		\item 	The freedom to run the program as you wish, for any purpose (freedom 0).
-		\item 	The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
-		\item  	The freedom to redistribute copies so you can help others (freedom 2).
-		\item  	The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+		\item 	The freedom to run the program as you wish, for any purpose. (freedom 0)
+		\item 	The freedom to study how the program works, and change it so it does your computing as you wish. Access to the source code is a precondition for this. (freedom 1)
+		\item  	The freedom to redistribute copies so you can help others. (freedom 2)
+		\item  	The freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this. (freedom 3)
 	\end{itemize}
 \end{quotation}
+
+Now, armed with the belief that this is the only ethical form of making / distributing software, rms founded the \textbf{Free Software Foundation} (FSF) in 1985, accepting donations and support of even technical kind, in building one of the most important software library in history. Not neccesarily because they initially set out to build them, but because that's what was needed to have a complete, free system. \cite{gnu-and-linux}
+
+You might've heard about a few projects from that library, both end-user focused:
+\begin{itemize}
+	\item GIMP (\href{https://www.youtube.com/watch?v=pVI_smLgTY0}{pewd's ally now}) \cite{pewds-linux}
+	\item LibreOffice (for the broke)
+	\item GNOME (for beautiful UI's)\cite{gnome}
+	\item emacs
+\end{itemize}
+And developer-useful
+\begin{itemize}
+	\item The GNU Compiler Collection (GCC)
+	\item GNU Binutils (things like the linker, assembler etc.)
+	\item flex
+	\item bison
+	\item gdb
+	\item gscript
+	\item BASHHH!! bro, bash
+\end{itemize}
+And all of these user-space tools were fantastic and sysadmins everywhere were replacing their proprietary counterparts, but the only problem was that they had to be run on top of a non-free kernel and operating system, and they had to be boostrapped by them, usually Unix. They didn't quitee make up a "complete" system just yet.
+
+So they started working on HURD, GNU's free kernel, so they could once and for all distance themselves from non-free software forever. \cite{hurd}
+
+But before they could get it working, one faithful January day in 1992, \textbf{Linus Benedict Torvalds} (yes, like the eggs) put out the release notes for Linux v0.12, his \href{https://www.gnu.org/philosophy/words-to-avoid.en.html#Freemium}{gratis} Kernel, on which he's been working since 1991 (might'a heard of it, no biggie)\cite{linux-init-release-note}, stating:
+\begin{quote}
+	… I propose that the
+	copyright be changed so that it confirms to GNU …
+\end{quote}\cite{linux-becomes-free}
+
+\ldots
+
+MONUMENTAL!!!, this is the moment this iconic, out-of-a-superhero-cereal-box figure was created:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\columnwidth]{pics/gnu-and-penguin.jpg}
+	\Description{Picture of GNU's mascot (a wildebeest) flying alongide Linux's mascot (a pengiun)}
+	\caption{a GNU and a lil pengu}
+	\label{fig:gnu-linux}
+\end{figure}
+And so, GNU/Linux "or as I've recently taken to calling it, GNU plus Linux." \cite{gnu-and-linux} was created.
+
+Now what all of these programs had in common was a \textbf{free} licence, not necessarily the in-house produced GNU General Public License, but others that abbided by the aforementioned 4 freedoms. Some include Apache, MIT, BSD, zlib.
+
+\href{https://www.gnu.org/philosophy/categories.html}{Cool breakdown here}. \cite{free-categories}
 
 This doesn't mean there can't be ANY restrictions when distributing modified versions.
 
@@ -96,13 +142,13 @@ and
  same distribution.
 	"
 \end{quote}
-What the FSF has to say about this is
+What does the FSF have to say about this?
 \begin{quote}
 	"
 	This sort of requirement is acceptable only if there's a suitable aliasing facility that allows you to specify the original program's name as an alias for the modified version.
 	"
 \end{quote}
-And I mean … I only ever had to change the name of \textbf{this} file and everything else just snapped into place.
+And I mean … I only ever had to change the name of \textbf{this} file and everything else just snapped into place, so checks out.
 
 % ca na, sa ma lase sa compilez
 \nocite{*}

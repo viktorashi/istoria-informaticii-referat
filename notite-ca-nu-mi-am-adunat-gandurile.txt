@@ -35,3 +35,9 @@ https://en.wikipedia.org/wiki/Copyleft
 
 whattt, deci interpeteru de Lisp pe care i l-a dat rms lu firma aia, e defapt PRIMUL DOMAIN NAME INREGISTRAT PE INTERNET https://symbolics.com that's crazyy
 si dupa n-a mai vrut sa-i dea inapoi, and he got bitter, das insane.
+
+
+aici inceputu kernelului
+https://ftp.funet.fi/pub/linux/historical/kernel/old-versions/RELNOTES-0.01
+
+sa nu uiti sa zici despre chestii ca LaTeX ca au vibeu asta de vechi dar super backwards compatible si friendly ca you won't have to worry about deprication cuz its been around forever, they can even burn shi on DVD'ss like cmonn
