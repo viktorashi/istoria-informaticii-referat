@@ -26,8 +26,7 @@ inafara de linux mai si BSD free, dar a evoluat total separat
 ma gandesc ca wiki are cel mai comprehansive istorie vazuta din toate punctele ig
 https://en.wikipedia.org/wiki/Free_Software_Foundatio
 
-aici s-a oficilaizat gen totu
-https://web.archive.org/web/20030524174013/http://weblog.siliconvalley.com/column/dangillmor/archives/001029.shtml
+
 
 ma gandesc pt ca toata lumea cauta ce e ala copyleft din cauza lui gnu, au pus parte care explica super misto si perfect ce e pe fkin wiki
 https://en.wikipedia.org/wiki/Copyleft
@@ -41,3 +40,26 @@ aici inceputu kernelului
 https://ftp.funet.fi/pub/linux/historical/kernel/old-versions/RELNOTES-0.01
 
 sa nu uiti sa zici despre chestii ca LaTeX ca au vibeu asta de vechi dar super backwards compatible si friendly ca you won't have to worry about deprication cuz its been around forever, they can even burn shi on DVD'ss like cmonn
+
+######## despre eventurile care au oficializat GPL, legal vorbind si asa ############333
+
+https://www.gnu.org/philosophy/enforcing-gpl.html - 2001 zice cv de microsoft, nuj la ce se refera sincer tre sa caut
+
+https://web.archive.org/web/20030524174013/http://weblog.siliconvalley.com/column/dangillmor/archives/001029.shtml -- creca despra aia vb nu j
+
+https://www.scl.org/1380-fsf-v-cisco/    -  2008
+
+https://lwn.net/Articles/51570/ - 2003 si include si chestii despre Cisco sus cred
+
+
+firme care am vzt pana acm ca au fost naughty cu GPL, spune frumos si scurt ce a fct fiecare OpenTV, Linksys, Microsoft, Cisco
+
+sa-i zici cv gen
+
+Salutt, gata cu referatuu!!
+deci ma supar daca nu citesti tot ca m-am chinuit la el de numaii.rg.e :( \s
+
+aic si sourceu daca esti curios, keepin it GPL
+
+
+sa zici si sorry ca nu sunt referintele in orindea la numere de cum sunt puse jos, nuj cum sa le fac sa fie in ordine

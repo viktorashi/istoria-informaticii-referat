@@ -13,6 +13,7 @@ Bib\TeX}}}
 \begin{document}
 
 \title{GNU, Free software and Stallman's dedication}
+\keywords{GNU, Free Software, they made me put this keywords section}
 
 \author{Stan Ioan-Victor 832}
 \email{ioan.victor.stan@stud.ubbcluj.ro}
@@ -119,15 +120,16 @@ MONUMENTAL!!!, this is the moment this iconic, out-of-a-superhero-cereal-box fig
 \end{figure}
 And so, GNU/Linux "or as I've recently taken to calling it, GNU plus Linux." \cite{gnu-and-linux} was created.
 
-I was thinking of writing more about their distinction and the beef rms has with words and terminology, but I'll instead just leave these references here. \cite{gnu-vs-linux-1} \cite{gnu-vs-linux-2} \cite{gnu-vs-linux-3}
+I was thinking of writing more about their distinction and the beef rms has with words and terminology, but I'll instead just leave these references here. \cite{gnu-vs-linux-1} \cite{gnu-vs-linux-2} \cite{gnu-vs-linux-3} Hopefully this won't be needed because you now know the history, but \verb|tl;dr| is: in terms of source-code proportions — GNU makes up more of a GNU / Linux distribution than the Linux part. I mean Linus literally used the GNU toolet to build the kernel, so yeah ... in a way it's a biproduct itself now.
 
-Now what all of these programs had in common was a \textbf{free} licence, not necessarily the in-house produced GNU General Public License, but others that abbided by the aforementioned 4 freedoms \ref{freedoms}. Some include Apache, MIT, BSD, zlib.
+Now what all of these programs had in common was a \textbf{free} license, not necessarily the in-house produced GNU General Public License, but others that abbided by the aforementioned 4 freedoms \ref{freedoms}. Some include Apache, MIT, BSD, zlib.
 
 \href{https://www.gnu.org/philosophy/categories.html}{Cool breakdown here}. \cite{free-categories}
 
 This doesn't mean there can't be ANY restrictions when distributing modified versions.
 
-In fact, even the copy of the original, free \verb|sample-sigplan.tex| file distributed by ACM that I used for this double-column format had the requirement of
+In fact, even the copy of the original, \\
+free \verb|sample-sigplan.tex| file distributed by ACM that I used for this \TeX   double-column format had the requirement of
 
 \begin{quote}
 	"
@@ -153,10 +155,63 @@ And I mean … I only ever had to change the name of \textbf{this} file and ever
 
 So the FSF is not only a collective of developers working to make this a reality, but also a legal team focused on protecting the rights and freedom imposed by free software.
 
-They imploy a \textbf{copyleft}\textcopyleft  strategy on top of their \textbf{copy right-ed}\textcopyright   work to enforce freedoms (\ref{freedoms}).
+They imploy a \textbf{copyleft}\textsuperscript{\textcopyleft} framework on top of their \textbf{copy right-ed}\textsuperscript{\textcopyright} work to enforce freedoms (\ref{freedoms}), essentially relaxing copyright. At the beggening of their journey, legal disputes weren't handled too formally, but instead just through regular, email exchanges between rms + FSF's lawyer, Eben Moglen and whoever was causing trouble in paradise. It was usually people trying to close down software intially distributed through GPL, not including the original GPL with the re-distributed software, as required by the license, for example.
 
-% ca na, sa ma lase sa compilez
-\nocite{*}
+They could even represent \textbf{you} in court. \cite{about-gnu}
+
+\section{The pivotal point}
+In 2003, a Cisco subsidiary, wifi-routers producing company \textbf{Linksys} broke GPL by shipping their devices with compiled firmware derived from free software, without including the modified sources and licence, like GPL states you need to do, hence "stealing" free software. \cite{fsf-vs-cisco}
+
+FSF ended up suing and eventually Cisco followed suit, even appointing a Free Software Director for Linksys and even donated a bit to FSF. This demonstrated the FSF's willingness to use legal action to enforce the GPL against a major corporation. \cite{cisco-lawsuit-start} \cite{cisco-lawsuit-end}
+
+Since before, people were confused on how that would even work. \cite{linksys-legend}
+
+\par
+
+Other conglomerates were also found breaking such rights, including Microsoft using GPLv2 code for a device boot tool. \cite{microsoft-steal-gpl} Eventually complying to it and releasing the tool along with the source-code as well.
+
+OpenTV, Motorola, Acer, Panasonic, and even Orange were kinda under scrutiny for simmillar practices. \cite{orange-naughty}
+
+Not even farmers are safe from this, \textbf{John Deere} is using free software in their tractors but are not letting their users study, modify and repair them in case anything goes wrong, requiring them to come back to ol' John for repairs. \cite{john-deere} This kinda reminds me of the right to repair
+Louis Rossmann was boasting about. \cite{rossman-right-to-repair}
+
+All-in-all, what they're trying their best to build is an inclusive community of hackers and users, just trying to do some computing.
+
+Yeahh, all of their websites have this old-timey feeling to it, just plain HTML and eye-piercing whitemode: \href{https://www.gnu.org}{gnu.org}, \href{https://www.fsf.org}{fsf.org}, \href{https://www.stallman.org}{stallman.org} (good thing OperaGX has one of the best "force dark-mode" features out there)
+but it's kinda charming in that sense as well. To be honest, the most important information you'll find is usually on websites looking like that.
+
+One thing I've noticed, though the "marketing" for GNOME is kind of better, which makes sense, considering that it's a UI: \href{https://www.gnome.org}{gnome.org}
+
+And they're also trying to bring the trend to the masses thorugh "it's ok if you're not a guru, we can install it for you" campaigns: \href{https://endof10.org/places/}{endof10.org}. Omg that rhymed, I didn't even notice, I should be part of their campaigns.
+
+They're also really really back-wards compatible with everything they try to do. For god's sake they only discontinued official physical-disk support for copies of \TeX-Live last year \ldots BUT YOU CAN STILL PERSONALLY ASK somebody from TUG to burn a DVD for you:: \cite{texlive-on-dvd}
+\section{Ok but he said \ldots}
+Yeah, tbh rms {\large \textbf{is}} a weirdo with statements like: (\textbf{obvious \textcolor{red}{trigger warning} please don't ruin your day}): \cite{bro-wtf-1} \cite{bro-wtf-2} \cite{bro-wtf-3} \cite{bro-wtf-toate}
+Which got me confused about how auto-contrary the 2 definitions of "symposium" is
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\columnwidth]{pics/symposium.png}	
+	\Description{Definition of the word symposium. 1. A conference / meeting (formal); 2. A drinking party (a bit less formal if you could call it that)}
+	\label{fig:symposium-def}
+\end{figure}
+If you know, you know, and if you don't, it's honestly better that way cuz I don't wanna poison your mind.
+
+Yeah, I just wouldn't wanna be seen walking around with him, but sure, I'll compile my C++ in GCC.
+
+I didn't even know about these before I started researching and writing this essay, tbh now I regret putting up a big picture with him in a crown as the teaser \ldots Maybe vandalising it will make me feel better.
+
+UPDATE :: TODO s-o faci gen
+\section{The community tho}
+Even though he might be dead to some people now after those things, the legacy he left behind is still here, and FSF recently celebrated 40 years of GNU. Believe it or not, there actually are a ton of other real-people behind it. \cite{gnu-forty-years}
+\begin{figure}[H]
+	\includegraphics[width=\columnwidth]{pics/gnu40-deani.jpg}	
+	\caption{Ppl at the 40th anniversary in Biel/Bienne, 2023.}
+	\Description{Picture of people at the 40-th anniversary of GNU in Biel/Bienne, 2023.}
+	\label{fig:gnu-anniversary}	
+\end{figure}
+Ok, I know rms was also here. \cite{gnu-forty-years-stallman}
+
+Other than that thanks a ton for readingg and I hope you didn't fall asleep more than twice!!
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{biblio}
