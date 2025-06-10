@@ -63,3 +63,6 @@ aic si sourceu daca esti curios, keepin it GPL
 
 
 sa zici si sorry ca nu sunt referintele in orindea la numere de cum sunt puse jos, nuj cum sa le fac sa fie in ordine
+
+
+TODO: oops am uitat sa zic despre ce strategii de bussines poti sa ai ca sa faci bani pe bune din free software, serios
